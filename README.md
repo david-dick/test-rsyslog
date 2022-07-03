@@ -4,7 +4,7 @@ Test::Rsyslog - Creates a temporary instance of rsyslog to run tests against
 
 # VERSION
 
-Version 0.06
+Version 0.07
 
 # SYNOPSIS
 
@@ -150,7 +150,7 @@ David Dick, `<ddick at cpan.org>`
 
 # LICENSE AND COPYRIGHT
 
-Copyright 2017 David Dick.
+Copyright 2022 David Dick.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
