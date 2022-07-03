@@ -56,8 +56,8 @@ sub find {
 }
 
 sub new {
-    my ($class) = @_;
-    my $self = bless {}, $class;
+    my ($class)        = @_;
+    my $self           = bless {}, $class;
     my $root_directory = File::Temp::mktemp(
         File::Spec->catfile(
             File::Spec->tmpdir(), 'perl_test_rsyslog_XXXXXXXXXXX'
