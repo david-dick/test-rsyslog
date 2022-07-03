@@ -130,7 +130,7 @@ sub start {
         eval {
             # clear any possible tainted environment variables
             local %ENV = %ENV;
-            local $ENV{'PATH'} = '/usr/bin:/usr/sbin:/sbin:/bin:';
+            local $ENV{'PATH'} = '/usr/bin:/usr/sbin:/sbin:/bin';
             delete $ENV{'BASH_ENV'};
             delete $ENV{'ENV'};
             delete $ENV{'IFS'};
